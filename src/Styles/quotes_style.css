@@ -1,0 +1,36 @@
+
+
+    .quotes-container {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .quotes-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .quote-card {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    
+    .quote-id {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 5px;
+    }
+    
+    .quote-text {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    
+    .quote-author {
+        font-size: 1rem;
+        font-weight: bold;
+    }
